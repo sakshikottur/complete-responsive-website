@@ -42,6 +42,53 @@
 
     <!--header section ends here-->
 
+    <!--home section starts here-->
+
+    <section class="home">
+
+
+        <div class="home-slider">
+
+            <div class="W">
+
+                <div class="slide" style="background:url(images/home-slide-1.jpg) no-repeat; background-size:cover; background-position:center">
+                    <div class="content">
+                        <span>explore, discover, enjoy</span>
+                        <h3>enjoy the music</h3>
+                        <a href="book.php" class="btn">view more</a>
+                    </div>
+                </div>
+
+                <div class="slide" style="background:url(images/home-slide-2.jpg) no-repeat; background-size:cover; background-position:center">
+                    <div class="content">
+                        <span>explore, discover, enjoy</span>
+                        <h3>enjoy the music</h3>
+                        <a href="gallery.php" class="btn">view more</a>
+                    </div>
+                </div>
+
+                <div class="slide" style="background:url(images/home-slide-3.jpg) no-repeat; background-size:cover; background-position:center">
+                    <div class="content">
+                        <span>explore, discover, enjoy</span>
+                        <h3>enjoy the music</h3>
+                        <a href="gallery.php" class="btn">view more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!--home section starts here-->
+
     <!--services section starts here-->
 
     <section class="services">

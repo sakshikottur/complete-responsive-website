@@ -46,6 +46,14 @@ section {
 
 }
 
+.heading-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
 .header {
     position: sticky;
     top: 0;
@@ -83,6 +91,20 @@ section {
     display: none;
 }
 
+.home {
+    padding: 0;
+}
+
+.home .slide {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
 
 .services .box-container {
     display: grid;
@@ -112,6 +134,15 @@ section {
     padding-top: 1rem;
     color: var(--white);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -175,6 +206,17 @@ section {
 .footer .credit span {
     color: var(--main-color);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -249,6 +291,10 @@ section {
 
     html {
         font-size: 50%;
+    }
+
+    .heading-title {
+        font-size: 3.5rem;
     }
 
 
