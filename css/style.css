@@ -95,9 +95,23 @@ section {
     padding: 3rem 2rem;
     text-align: center;
     background: var(--main-color);
+    cursor: pointer;
 }
 
+.services .box-container .box:hover {
+    background: var(--black);
+}
 
+.services .box-container .box img {
+    height: 7rem;
+}
+
+.services .box-container .box h3 {
+    columns: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    color: var(--white);
+}
 
 
 

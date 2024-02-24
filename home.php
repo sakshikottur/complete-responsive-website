@@ -44,29 +44,29 @@
 
     <!--services section starts here-->
 
-    <section class="service">
+    <section class="services">
 
         <h1 class="heading-title"> our services </h1>
 
         <div class="box-container">
 
             <div class="box">
-                <img src="images/icon-1.png" alt="" style="height: 100px;">
+                <img src="images\icon1.png" alt="" style="height: 100px;">
                 <h3>MUSIC</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-2.png" alt="" style="height: 100px;">
+                <img src="images/icon2.png" alt="" style="height: 100px;">
                 <h3>TICKETS</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-3.png" alt="" style="height: 100px;">
+                <img src="images/icon3.png" alt="" style="height: 100px;">
                 <h3>FOOD</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-4.png" alt="" style="height: 100px;">
+                <img src="images/icon4.png" alt="" style="height: 100px;">
                 <h3>DRINKS</h3>
             </div>
 
