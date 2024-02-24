@@ -47,11 +47,11 @@
     <section class="home">
 
 
-        <div class="home-slider">
+        <div class="swiper home-slider">
 
-            <div class="W">
+            <div class="swiper-wrapper">
 
-                <div class="slide" style="background:url(images/home-slide-1.jpg) no-repeat; background-size:cover; background-position:center">
+                <div class="swiper-slide" style="background:url(images/home-slide-1.jpg) no-repeat; background-size:cover; background-position:center; height: 600px">
                     <div class="content">
                         <span>explore, discover, enjoy</span>
                         <h3>enjoy the music</h3>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background:url(images/home-slide-2.jpg) no-repeat; background-size:cover; background-position:center">
+                <div class="swiper-slide" style="background:url(images/home-slide-2.jpg) no-repeat; background-size:cover; background-position:center; height:600px">
                     <div class="content">
                         <span>explore, discover, enjoy</span>
                         <h3>enjoy the music</h3>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background:url(images/home-slide-3.jpg) no-repeat; background-size:cover; background-position:center">
+                <div class="swiper-slide" style="background:url(images/home-slide-3.jpg) no-repeat; background-size:cover; background-position:center; height:600px">
                     <div class="content">
                         <span>explore, discover, enjoy</span>
                         <h3>enjoy the music</h3>
@@ -76,7 +76,8 @@
                 </div>
 
             </div>
-
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
 
     </section>
