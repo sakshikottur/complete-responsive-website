@@ -23,7 +23,7 @@
 
     <section class="header">
 
-        <a href="home.php" class="logo">BEATBOX</a>
+        <a href="home.php" class="logo">BEATBOX!!</a>
 
         <nav class="navbar">
             <a href="home.php">HOME</a>
