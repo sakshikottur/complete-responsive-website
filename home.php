@@ -42,6 +42,7 @@
 
     <!--header section ends here-->
 
+
     <!--home section starts here-->
 
     <section class="home">
@@ -82,13 +83,8 @@
 
     </section>
 
-
-
-
-
-
-
     <!--home section starts here-->
+
 
     <!--services section starts here-->
 
@@ -126,8 +122,48 @@
 
     <!--services section ends here-->
 
+    <!--home about section starts here-->
 
+    <section class="home-about">
 
+        <div class="image">
+            <img src="images\about-image.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Welcome to BEATBOX, where passion for music meets precision in event management.</p>
+            <a href="about.php" class="btn">read more</a>
+        </div>
+    </section>
+
+    <!--home about section starts here-->
+
+    <!--home packages section starts here-->
+
+    <section class="home-packages">
+
+        <h1 class="heading">
+
+            <div class="box-container">
+
+                <div class="box">
+
+                    <div class="image">
+                        <img src="images/img-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3></h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </h1>
+
+    </section>
+
+    <!--home packages section ends here-->
 
 
 
@@ -191,12 +227,11 @@
 
     </section>
 
-
     <!-- footer section ends -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="js/script.js">
 
