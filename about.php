@@ -42,10 +42,137 @@
 
     <!--header ends here-->
 
-    <div class="heading" style="background: url(images/header-bg-1.png) no-repeat; background-size:cover; background-position:center">
+    <div class="heading" style="background: url(images/header-bg-3.png) no-repeat; background-size:cover; background-position:center">
         <h1>about us</h1>
 
     </div>
+
+    <!--about us section starts here-->
+
+    <section class="about">
+        <div class="image">
+            <img src="images\about image.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>why choose us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur a, inventore architecto ullam quos nobis cumque tenetur in, ea mollitia cum dignissimos porro. Provident, laborum? Molestias mollitia qui culpa nesciunt.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ipsam quod iusto sit atque doloribus nostrum, placeat asperiores impedit culpa.</p>
+            <div class="icons-container">
+                <i class="fas fa-hand-holding-usd">
+                    <span>affordable price</span>
+                </i>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset">
+                    <span>24/7 guide service</span>
+                </i>
+            </div>
+        </div>
+    </section>
+
+    <!--about us section ends here-->
+
+    <!--review section starts here-->
+
+    <section class="reviews">
+
+        <div class="reviews-slider">
+
+            <div class="w">
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dolorem! Eos nam eveniet eligendi suscipit quos illum sunt non perferendis?</p>
+                    <h3>John deo</h3>
+                    <span>Traveller</span>
+                    <img src="images\pic-1.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
+                    <h3>John deo</h3>
+                    <span>Traveller</span>
+                    <img src="images\pic-2.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dolorem! Eos nam eveniet eligendi suscipit quos illum sunt non perferendis?</p>
+                    <h3>John deo</h3>
+                    <span>Traveller</span>
+                    <img src="images\pic-3.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
+                    <h3>John deo</h3>
+                    <span>Traveller</span>
+                    <img src="images\pic-4.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
+                    <h3>John deo</h3>
+                    <span>Traveller</span>
+                    <img src="images\pic-5.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
+                    <h3>John deo</h3>
+                    <span>Traveller</span>
+                    <img src="images\pic-6.png" alt="">
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--review section ends here-->
 
 
 

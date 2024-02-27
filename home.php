@@ -127,7 +127,7 @@
     <section class="home-about">
 
         <div class="image">
-            <img src="images\about-image.jpg" alt="">
+            <img src="images\about image.jpg" alt="">
         </div>
 
         <div class="content">
@@ -145,60 +145,58 @@
 
         <h1 class="heading-title">our packages</h1>
 
-            <div class="box-container">
+        <div class="box-container">
 
-                <div class="box">
+            <div class="box">
 
-                    <div class="image">
-                        <img src="images\img-1.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & musics</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quibusdam laboriosam ipsam voluptatem fugit quasi quae suscipit iusto architecto iure odio voluptates facilis, cumque incidunt labore eaque deleniti. Labore.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
+                <div class="image">
+                    <img src="images\img-4.jpg" alt="">
                 </div>
-
-            <div class="box-container">
-               
-                <div class="box">
-
-                    <div class="image">
-                        <img src="images\img-4.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>adventure & musics</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quibusdam laboriosam ipsam voluptatem fugit quasi quae suscipit iusto architecto iure odio voluptates facilis, cumque incidunt labore eaque deleniti. Labore.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
+                <div class="content">
+                    <h3>adventure & musics</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quibusdam laboriosam ipsam voluptatem fugit quasi quae suscipit iusto architecto iure odio voluptates facilis, cumque incidunt labore eaque deleniti. Labore.</p>
+                    <a href="book.php" class="btn">book now</a>
                 </div>
+            </div>
 
-            <div class="box-container">
 
-                <div class="box">
 
-                    <div class="image">
-                     <img src="images\img-2.jpg" alt="" >
-                    </div>
-                    <div class="content">
-                        <h3>adventure & musics</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quibusdam laboriosam ipsam voluptatem fugit quasi quae suscipit iusto architecto iure odio voluptates facilis, cumque incidunt labore eaque deleniti. Labore.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
+            <div class="box">
+
+                <div class="image">
+                    <img src="images\img-3.jpg" alt="">
                 </div>
-            
+                <div class="content">
+                    <h3>adventure & musics</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quibusdam laboriosam ipsam voluptatem fugit quasi quae suscipit iusto architecto iure odio voluptates facilis, cumque incidunt labore eaque deleniti. Labore.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
 
-       
-    </div>
 
-    <div class="load-more"> <a href="book.php" class="btn">load more</a></div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images\img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & musics</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quibusdam laboriosam ipsam voluptatem fugit quasi quae suscipit iusto architecto iure odio voluptates facilis, cumque incidunt labore eaque deleniti. Labore.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="load-more"> <a href="book.php" class="btn">load more</a></div>
 
 
     </section>
 
     <!--home packages section ends here-->
 
-    <!--home offer section starts here--> 
+    <!--home offer section starts here-->
 
     <section class="home-offer">
         <div class="content">
@@ -209,9 +207,7 @@
     </section>
 
 
-     <!--home offer section ends here-->
-
-
+    <!--home offer section ends here-->
 
 
 
