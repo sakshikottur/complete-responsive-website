@@ -126,7 +126,7 @@
 
     <section class="home-about">
 
-        <div class="image">
+        <div class="image"
             <img src="images\about image.jpg" alt="">
         </div>
 

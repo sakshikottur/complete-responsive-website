@@ -52,7 +52,7 @@
     <section class="booking">
         <h1 class="heading-title">Grab your Tickets</h1>
 
-        <form action="book_form.php" methot="post" class="book-form">
+        <form action="book_form.php" method="post" class="book-form">
 
             <div class="flex">
                 <div class="inputBox">
