@@ -56,8 +56,8 @@
 
         <div class="content">
             <h3>why choose us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur a, inventore architecto ullam quos nobis cumque tenetur in, ea mollitia cum dignissimos porro. Provident, laborum? Molestias mollitia qui culpa nesciunt.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ipsam quod iusto sit atque doloribus nostrum, placeat asperiores impedit culpa.</p>
+            <p>Choose us for your concert needs and unlock a world of seamless experiences and unparalleled expertise. With a passion for curating unforgettable events, we blend creativity with meticulous planning to bring your vision to life</p>
+            <p>Our team's dedication ensures every detail, from artist selection to venue logistics, is executed flawlessly, allowing you to focus on what truly matters – creating magical moments for our audience. </p>
             <div class="icons-container">
                 <i class="fas fa-hand-holding-usd">
                     <span>affordable price</span>
@@ -89,7 +89,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dolorem! Eos nam eveniet eligendi suscipit quos illum sunt non perferendis?</p>
+                    <p> I've worked with numerous concert management companies, but none have matched the professionalism and attention to detail of BEATBOX. Their team made the entire process seamless</p>
                     <h3>John deo</h3>
                     <span>Traveller</span>
                     <img src="images\pic-1.png" alt="">
@@ -103,9 +103,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
-                    <h3>John deo</h3>
-                    <span>Traveller</span>
+                    <p>"I've been attending concerts for years, and I have to say, the ones managed by BEATBOX stand out. The lineup is always top-notch, and the atmosphere they create is electric. Can't wait for the next one!"</p>
+                    <h3>David Smith</h3>
+                    <span>Artist</span>
                     <img src="images\pic-2.png" alt="">
                 </div>
 
@@ -115,9 +115,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dolorem! Eos nam eveniet eligendi suscipit quos illum sunt non perferendis?</p>
-                    <h3>John deo</h3>
-                    <span>Traveller</span>
+                    <p>I really enjoyed a lot. wonderfull experiences with BEATBOX production..</p>
+                    <h3>Emily Brown</h3>
+                    <span>Student</span>
                     <img src="images\pic-3.png" alt="">
                 </div>
 
@@ -129,9 +129,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
-                    <h3>John deo</h3>
-                    <span>Traveller</span>
+                    <p> "The venue was perfect, the sound quality impeccable, and the overall vibe was fantastic. Kudos to the team for putting together such a memorable event!"</p>
+                    <h3>Jessica Wilson</h3>
+                    <span>Fashion designer</span>
                     <img src="images\pic-4.png" alt="">
                 </div>
 
@@ -142,9 +142,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
-                    <h3>John deo</h3>
-                    <span>Traveller</span>
+                    <p>"I recently attended a concert organized by them and it was an unforgettable experience"</p>
+                    <h3>Travis</h3>
+                    <span>Student</span>
                     <img src="images\pic-5.png" alt="">
                 </div>
 
@@ -156,9 +156,9 @@
                         <i class="fas fa-star"></i>
 
                     </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta totam eaque maxime. Labore fugit quasi sequi alias inventore velit incidunt esse facere dolore deleniti suscipit error, assumenda unde! Sunt culpa quia placeat praesentium minima recusandae earum commodi, voluptas nobis nemo?</p>
-                    <h3>John deo</h3>
-                    <span>Traveller</span>
+                    <p>"I've been attending concerts for years, and I have to say, the ones managed by BEATBOX stand out. The lineup is always top-notch, and the atmosphere they create is electric. Can't wait for the next one!" HIGHLY RECOMANDED..</p>
+                    <h3>Peter</h3>
+                    <span>Software Engineer</span>
                     <img src="images\pic-6.png" alt="">
                 </div>
 

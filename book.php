@@ -42,7 +42,7 @@
 
     <!--header ends here-->
 
-    <div class="heading" style="background: url(images/header-bg-1.png) no-repeat; background-size:cover; background-position:center">
+    <div class="heading" style="background: url(images/header-bg-book1.jpg) no-repeat; background-size:cover; height: 500px ;background-position:center">
         <h1>Book Now!!</h1>
 
     </div>
