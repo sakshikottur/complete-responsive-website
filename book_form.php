@@ -1,21 +1,21 @@
 <?php
 
-$connection = mysqli_connect('localhost', 'root', '', 'book_db');
+$con = mysqli_connect('localhost', 'root', '', 'concert_management');
 
 if (isset($_POST['send'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $address = $_POST['address'];
-    $location = $_POST['location'];
-    $guests = $_POST['guests'];
-    $arrivals = $_POST['arrivals'];
-    $leaving = $_POST['leaving'];
+    $name = $_POST['book_name'];
+    $email = $_POST['book_email'];
+    $phone = $_POST['book_phone'];
+    $address = $_POST['book_address'];
+    $location = $_POST['book_location'];
+    $guests = $_POST['book_uests'];
 
-    $request = " insert into book_form(name, email, phone, address, location, guests, arrival, leaving) values
-        ('$name','$email','$phone','$address','$location','$guests','$arrivals','$leaving')";
 
-    mysqli_query($connection, $request);
+
+    $sql = " insert into book(book_name, book_email, book_phone, book_address, book_location, book_guests ) values
+        ('$name','$email','$phone','$address','$location','$guests')";
+
+    mysqli_query($con, $sql);
 
     header('location:book.php');
 } else {

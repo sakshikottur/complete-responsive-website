@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,9 +16,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-
-
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -28,9 +32,10 @@
         <nav class="navbar">
             <a href="home.php">HOME</a>
             <a href="about.php">ABOUT</a>
-            <a href="services.php">SERVICES</a>
-            <a href="gallary.php">GALLARY</a>
+            <a href="displayConcert1.php">CONCERTS</a>
             <a href="book.php">BOOK</a>
+            <a href="logout.php">LOGOUT</a>
+
 
         </nav>
 

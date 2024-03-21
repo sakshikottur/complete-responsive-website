@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +17,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -28,9 +35,10 @@
         <nav class="navbar">
             <a href="home.php">HOME</a>
             <a href="about.php">ABOUT</a>
-            <a href="services.php">SERVICES</a>
-            <a href="gallary.php">GALLARY</a>
+            <a href="booked.php">BOOKED</a>
             <a href="book.php">BOOK</a>
+            <a href="logout.php">LOGOUT</a>
+
 
         </nav>
 
@@ -43,10 +51,72 @@
     <!--header ends here-->
 
     <div class="heading" style="background: url(images/header-bg-2.png) no-repeat; background-size:cover; background-position:center">
-        <h1>Upcoming Concerts</h1>
+        <h1>DETAILS OF BOOKING</h1>
 
     </div>
+    <div class="container my-5">
+        <h2>List of CLients</h2>
+        <a class="btn btn-primary" href="book.php" role="button">New Client</a>
+        <br>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Which concert</th>
+                        <th>how many</th>
 
+
+                    </tr>
+                </thead>
+                <tbody style="size: 50px;">
+                    <?php
+                    $servername = "localhost";
+                    $username = "root";
+                    $password = "";
+                    $database = "book_db";
+
+                    //create connection
+                    $connection = new mysqli($servername, $username, $password, $database);
+
+                    //check connection
+                    if ($connection->connect_error) {
+                        die("connection failed: " . $connection->connect_error);
+                    }
+
+                    //read all rows from database table
+                    $sql = "SELECT * FROM book_form";
+                    $result = $connection->query($sql);
+
+                    if (!$result) {
+                        die("Invalid query: " . $connection->error);
+                    }
+
+                    // read data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        echo "
+                    <tr>
+                    <td>$row[name]</td>
+                    <td>$row[email]</td>
+                    <td>$row[phone]</td>
+                    <td>$row[address]</td>
+                    <td>$row[location]</td>
+                    <td>$row[guests]</td>
+                    
+    
+                    
+                </tr>
+                    ";
+                    }
+                    ?>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
 
 
 

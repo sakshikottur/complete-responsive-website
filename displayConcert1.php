@@ -5,22 +5,42 @@ if (!isset($_SESSION["username"])) {
 }
 ?>
 
+<?php
+include 'connectConcert.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
-
+    <title>Display concert</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
 
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .table {
+            width: 100%;
+            font-size: 16px;
+        }
+
+        th,
+        td {
+            text-align: center;
+            vertical-align: middle !important;
+        }
+    </style>
 
 </head>
 
@@ -50,77 +70,66 @@ if (!isset($_SESSION["username"])) {
 
     <!--header ends here-->
 
-    <div class="heading" style="background: url(images/header-bg-book1.jpg) no-repeat; background-size:cover; height: 500px ;background-position:center">
+    <div class="heading" style="background: url(images/header-bg-book1.jpg) no-repeat; background-size:cover; height: 250px ;background-position:center">
         <h1>Book Now!!</h1>
 
     </div>
 
-    <!--book section starts-->
+    <div class="container my-5">
+        <div class="table-responsive">
+            <table class="table table-striped">
 
-    <section class="booking">
-        <h1 class="heading-title">Grab your Tickets</h1>
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Concert Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Artist Performing</th>
+                        <th scope="col">Ticket Price</th>
 
-        <form action="book_form.php" method="post" class="book-form">
-
-            <div class="flex">
-                <div class="inputBox">
-                    <span>name :</span>
-                    <input type="text" placeholder="enter your name" name="book_name">
-                </div>
-                <div class="inputBox">
-                    <span>email :</span>
-                    <input type="email" placeholder="enter your email" name="book_email">
-                </div>
-                <div class="inputBox">
-                    <span>phone :</span>
-                    <input type="number" placeholder="enter your number" name="book_phone">
-                </div>
-                <div class="inputBox">
-                    <span>address :</span>
-                    <input type="text" placeholder="enter your address" name="book_address">
-                </div>
-                <div class="inputBox">
-                    <span>which concert :</span>
-                    <input type="text" placeholder="which concert" name="book_location">
-                </div>
-                <div class="inputBox">
-                    <span>How many :</span>
-                    <input type="number" placeholder="number of guests" name="book_guests">
-                </div>
-
-
-            </div>
-
-            <input type="submit" value="submit" class="btn" name="send">
-
-
-        </form>
+                    </tr>
+                </thead>
+                <tbody>
 
 
 
+                    <?php
 
-    </section>
+                    $sql = "select * from `concert`";
+                    $result = mysqli_query($con, $sql);
+                    if ($result) {
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            $id = $row['concert_id'];
+                            $name = $row['concert_name'];
+                            $date = $row['date'];
+                            $time = $row['time'];
+                            $artist = $row['artist_performing'];
+                            $ticket = $row['ticket_price'];
+                            echo '<tr>
+                        <th scope="row">' . $id . '</th>
+                        <td>' . $name . '</td>
+                        <td>' . $date . '</td>
+                        <td>' . $time . '</td>
+                        <td>' . $artist . '</td>
+                        <td>' . $ticket . '</td>
+                        <td>
+                        </td>
+                    </tr>';
+                        }
+                    }
+
+
+                    ?>
 
 
 
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-    <!--book section ends-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- footer section starts -->
+    <!-- footer section starts 
     <section class="footer">
 
         <div class="box-container">
@@ -170,15 +179,7 @@ if (!isset($_SESSION["username"])) {
     </section>
 
 
-    <!-- footer section ends -->
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
-    <script src="js/script.js">
-
-    </script>
+    footer section ends -->
 
 </body>
 

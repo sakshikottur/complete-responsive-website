@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,9 +35,9 @@
         <nav class="navbar">
             <a href="home.php">HOME</a>
             <a href="about.php">ABOUT</a>
-            <a href="services.php">SERVICES</a>
-            <a href="gallary.php">GALLARY</a>
+            <a href="displayConcert1.php">CONCERTS</a>
             <a href="book.php">BOOK</a>
+            <a href="logout.php">LOGOUT</a>
 
         </nav>
 
