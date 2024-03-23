@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location:home.php");
     } else if ($row["usertype"] == "admin") {
         $_SESSION["username"] = $username;
-        header("location:adminhome.php");
+        header("location:admin.php");
     } else {
         echo "username or password incorrect";
     }
@@ -68,17 +68,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2>LOGIN FORM</h2><br><br><br><br>
         <div style="background-color:lavender; width:500px;">
             <br><br>
-            <form action="#" method="POST">
+            <form action="login.php" method="POST">
 
                 <div>
                     <label>username</label>
-                    <input type="text" name="username" required>
+                    <input type="text" id="username" name="username" required>
                 </div>
                 <br><br>
 
                 <div>
                     <label>password</label>
-                    <input type="password" name="password" required>
+                    <input type="password" id="password" name="password" required>
                 </div>
                 <br><br>
 
