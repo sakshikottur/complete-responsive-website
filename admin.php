@@ -109,7 +109,7 @@ if (!isset($_SESSION["username"])) {
                             Concerts
                         </div>
                     </a>
-                    <a href="deleteVenue.php">
+                    <a href="displayVenue.php">
                         <div class="flex-box">
                             Venue
                         </div>
