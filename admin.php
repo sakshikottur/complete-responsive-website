@@ -1,8 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["username"])) {
-    header("Location: login.php");
-    exit(); // Ensure that the script stops executing after the redirect
+    header("location:login.php");
 }
 ?>
 

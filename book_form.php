@@ -1,4 +1,11 @@
 <?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
+<?php
 
 $con = mysqli_connect('localhost', 'root', '', 'concert_management');
 

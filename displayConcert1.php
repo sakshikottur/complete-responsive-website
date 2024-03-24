@@ -5,6 +5,14 @@ if (!isset($_SESSION["username"])) {
 }
 ?>
 
+
+<?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
 <?php
 include 'connectConcert.php';
 ?>

@@ -1,4 +1,12 @@
 <?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
+
+<?php
 include 'connectConcert.php';
 $id = $_GET['updateid'];
 $sql = "select * from `concert` where concert_id=$id";

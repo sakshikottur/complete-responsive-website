@@ -1,4 +1,12 @@
 <?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
+
+
+<?php
 include 'connectConcert.php';
 if (isset($_POST['submit'])) {
     $name = $_POST['concert_name'];
