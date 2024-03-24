@@ -15,7 +15,7 @@ if (isset($_POST['send'])) {
     $phone = $_POST['book_phone'];
     $address = $_POST['book_address'];
     $location = $_POST['book_location'];
-    $guests = $_POST['book_uests'];
+    $guests = $_POST['book_guests'];
 
 
 
