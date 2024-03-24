@@ -5,6 +5,10 @@ if (!isset($_SESSION["username"])) {
 }
 ?>
 
+<?php
+include 'connectConcert.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,24 +84,41 @@ if (!isset($_SESSION["username"])) {
                     <input type="text" placeholder="enter your address" name="book_address">
                 </div>
                 <div class="inputBox">
-                    <span>which concert :</span>
-                    <input type="text" placeholder="which concert" name="book_location">
-                </div>
-                <div class="inputBox">
                     <span>How many :</span>
                     <input type="number" placeholder="number of guests" name="book_guests">
                 </div>
 
+                <div class="inputBox">
+                    <span>which concert :</span>
+                    <div style="position: relative;">
+                        <!--   <input type="text" placeholder="which concert" name="book_location"> -->
+                        <select name="book_concert" style="width: 100%; padding: 1.2rem 1.4rem; font-size: 1.6rem; color: var(--light-black); text-transform: none; margin-top: 1.5rem; border: var(--border);">
+                            <!--  <select name="book_concert" style="position: absolute; top: 0; right: 0; width: 100%; height:50px; font-size:1.5rem; border: 1px solid black;"> -->
+                            <option value="">Select Concert</option>
+                            <?php
+                            // SQL query to select concert data from the concert table
+                            $concert_query = "SELECT * FROM concert";
+                            $concert_result = mysqli_query($con, $concert_query);
 
+                            // Check if query was successful
+                            if ($concert_result && mysqli_num_rows($concert_result) > 0) {
+                                // Loop through each concert and populate dropdown options
+                                while ($concert_row = mysqli_fetch_assoc($concert_result)) {
+                                    $concert_id = $concert_row['concert_id'];
+                                    $concert_name = $concert_row['concert_name'];
+                                    // Populate dropdown option with concert name
+                                    echo "<option value='$concert_id'>$concert_name</option>";
+                                }
+                            }
+                            ?>
+                        </select>
+                    </div>
+                </div>
             </div>
 
             <input type="submit" value="submit" class="btn" name="send">
 
-
         </form>
-
-
-
 
     </section>
 
