@@ -6,6 +6,10 @@ if (!isset($_SESSION["username"])) {
 ?>
 
 <?php
+include 'connectConcert.php';
+?>
+
+<?php
 
 $con = mysqli_connect('localhost', 'root', '', 'concert_management');
 
@@ -14,12 +18,12 @@ if (isset($_POST['send'])) {
     $email = $_POST['book_email'];
     $phone = $_POST['book_phone'];
     $address = $_POST['book_address'];
-    $location = $_POST['book_location'];
+    $location = $_POST['book_concert'];
     $guests = $_POST['book_guests'];
 
 
 
-    $sql = " insert into book(book_name, book_email, book_phone, book_address, book_location, book_guests ) values
+    $sql = " insert into book(book_name, book_email, book_phone, book_address, book_concert, book_guests ) values
         ('$name','$email','$phone','$address','$location','$guests')";
 
     mysqli_query($con, $sql);

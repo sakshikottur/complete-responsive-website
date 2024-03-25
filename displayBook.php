@@ -65,7 +65,7 @@ include 'connectBook.php';
                         $email = $row['book_email'];
                         $phone = $row['book_phone'];
                         $address = $row['book_address'];
-                        $location = $row['book_location'];
+                        $location = $row['book_concert'];
                         $guests = $row['book_guests'];
                         echo '<tr>
                         <th scope="row">' . $id . '</th>
